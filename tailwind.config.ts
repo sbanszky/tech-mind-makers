@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        neural: {
+          DEFAULT: "hsl(var(--neural))",
+          foreground: "hsl(var(--neural-foreground))",
+        },
+        psychedelic: {
+          DEFAULT: "hsl(var(--psychedelic))",
+          foreground: "hsl(var(--psychedelic-foreground))",
+        },
+        biotech: {
+          DEFAULT: "hsl(var(--biotech))",
+          foreground: "hsl(var(--biotech-foreground))",
+        },
+        "tech-leader": {
+          DEFAULT: "hsl(var(--tech-leader))",
+          foreground: "hsl(var(--tech-leader-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
