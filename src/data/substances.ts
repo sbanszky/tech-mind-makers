@@ -98,5 +98,27 @@ export const substanceData: SubstanceInfo[] = [
     medicalUse: 'Some approved for narcolepsy, ADHD, or cognitive impairment. Others used off-label for cognitive enhancement in healthy individuals.',
     risks: 'Varies by substance. Potential for dependence, sleep disruption, anxiety, or cardiovascular effects. Limited long-term safety data for many compounds.',
     culturalContext: 'Popular in Silicon Valley and academic settings. Growing market for cognitive enhancement. Ethical debates about fairness and safety in healthy populations.'
+  },
+  {
+    id: 'dmt',
+    name: 'DMT',
+    scientificName: 'N,N-Dimethyltryptamine',
+    category: 'psychedelic',
+    mechanism: 'Potent serotonin 5-HT2A receptor agonist with rapid onset and short duration. Naturally occurring in many plants and produced endogenously in mammals.',
+    effects: ['Intense visual hallucinations', 'Complete ego dissolution', 'Entity encounters', 'Time distortion', 'Profound spiritual experiences', 'Breakthrough experiences'],
+    medicalUse: 'Research for depression, PTSD, addiction treatment. Component of ayahuasca used in therapeutic settings. Investigating potential for rapid psychological healing.',
+    risks: 'Intense psychological experience can cause panic, anxiety, or trauma. Risk of dangerous behavior during use. Potential for triggering latent psychiatric conditions. Rapid onset can be overwhelming.',
+    culturalContext: 'Called "the spirit molecule" - central to Amazon shamanic traditions via ayahuasca. Growing interest in Silicon Valley for breakthrough insights and consciousness exploration.'
+  },
+  {
+    id: '5-meo-dmt',
+    name: '5-MeO-DMT',
+    scientificName: '5-methoxy-N,N-dimethyltryptamine',
+    category: 'psychedelic',
+    mechanism: 'Highly potent serotonin receptor agonist, particularly 5-HT1A and 5-HT2A. More potent than DMT with distinct phenomenology focused on unity experiences rather than visuals.',
+    effects: ['Complete ego dissolution', 'Unity consciousness', 'Mystical experiences', 'Minimal visual effects', 'Profound perspective shifts', 'Non-dual awareness'],
+    medicalUse: 'Emerging research for depression, anxiety, addiction. Used in therapeutic retreats for trauma healing and spiritual development. Investigating efficacy for existential distress.',
+    risks: 'Extremely potent - high risk of overwhelming experience. Potential for psychological trauma. Risk of dangerous behavior. Contraindicated with MAOIs and certain medications.',
+    culturalContext: 'Naturally found in Sonoran Desert toad (Bufo alvarius). Used in indigenous ceremonies. Popular among tech entrepreneurs seeking rapid transformation and business insights.'
   }
 ];
