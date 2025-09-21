@@ -198,5 +198,27 @@ export const leaders: Leader[] = [
       }
     ],
     impact: "Gates' systematic approach to problem-solving extends to personal optimization and health research. His philanthropic work in global health has led to personal experimentation with preventive treatments and longevity research."
+  },
+  {
+    id: "sam-altman",
+    name: "Sam Altman",
+    role: "CEO",
+    companies: ["OpenAI"],
+    bio: "CEO of OpenAI, known for his leadership in artificial intelligence and his advocacy for AI safety and alignment.",
+    substances: [
+      {
+        name: "Psychedelics",
+        category: "psychedelic",
+        context: "Used during a guided retreat in Mexico, describing it as a transformative experience that helped with anxiety and mindset",
+        purpose: "Personal growth and mental wellness"
+      }
+    ],
+    quotes: [
+      {
+        text: "I believe that psychedelics can be a powerful tool for personal growth and innovation.",
+        context: "Various interviews and discussions"
+      }
+    ],
+    impact: "Altman's openness about his psychedelic experiences reflects a growing trend among tech leaders to explore consciousness-expanding substances for personal and professional growth. His advocacy for AI safety and alignment complements his interest in expanding human potential through various means."
   }
 ];
